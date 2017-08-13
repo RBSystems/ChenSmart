@@ -86,7 +86,7 @@ namespace ChenSmart
 
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //ILiveDebug.Instance.WriteLine(ex.Message);
             }

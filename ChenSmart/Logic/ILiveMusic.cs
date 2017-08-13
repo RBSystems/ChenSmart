@@ -23,7 +23,9 @@ namespace ChenSmart
             #region 注册串口
             if (this.controlSystem.SupportsComPort)
             {
-                this.music = new ILiveDM8318( this.controlSystem.ComPorts[2]);
+                ILiveComPort com = new ILiveComPort(this.controlSystem.ComPorts[2]);
+                com.Register();
+                this.music = new ILiveDM8318(com );
             }
             #endregion
 

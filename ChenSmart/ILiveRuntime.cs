@@ -51,7 +51,7 @@ namespace ChenSmart
         internal void StartServices()
         {
             //启动调试服务
-            ILiveDebug.Instance.StartDebug("192.168.188.121", 8801, 8801);
+            ILiveDebug.Instance.StartDebug("192.168.188.43", 8801, 8801);
             ILiveDebug.Instance.DebugDataReceived = client_DebugDataReceived;
 
            // this.cp3.RegisterDevices();

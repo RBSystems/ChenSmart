@@ -20,7 +20,7 @@ namespace ChenSmart
         ILiveRuntime logic = null;
 
 
-        private ILiveTCPServer tcpDebug = null;
+      //  private ILiveTCPServer tcpDebug = null;
 
         /// <summary>
         /// 中控系统构造函数

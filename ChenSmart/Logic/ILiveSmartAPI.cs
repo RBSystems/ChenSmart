@@ -48,8 +48,13 @@ namespace ChenSmart
             this.Muisc = new ILiveMusic(system);
             this.Muisc.RegisterDevices();
 
-            //IRACC接CP3 com1            
-            this.iracc = new ILiveIRACC(system.ComPorts[1]);
+            //IRACC接CP3 com1   
+
+            ILiveComPort com = new ILiveComPort(system.ComPorts[1]);
+            com.Register();
+            this.iracc = new ILiveIRACC(com);
+
+            //this.iracc = new ILiveIRACC(system.ComPorts[1]);
             
 
             
