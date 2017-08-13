@@ -1,0 +1,17 @@
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\IR\Optoma.ir
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\Crestron.SimplSharpPro.DeviceSupport.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\Crestron.SimplSharpPro.Keypads.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\Crestron.SimplSharpPro.Lighting.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\Crestron.SimplSharpPro.UI.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\SimplSharpCustomAttributesInterface.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\SimplSharpHelperInterface.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\SimplSharpPro.exe
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\SimplSharpReflectionInterface.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\WebSocketServer.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\Crestron.SimplSharpPro.DM.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\SimplSharpCryptographyInterface.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\GJHFSmart.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\bin\GJHFSmart.pdb
+D:\Project\GJHF\GJHFSmart\GJHFSmart\obj\Debug\GJHFSmart.dll
+D:\Project\GJHF\GJHFSmart\GJHFSmart\obj\Debug\GJHFSmart.pdb

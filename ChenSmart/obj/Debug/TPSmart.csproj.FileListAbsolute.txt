@@ -1,0 +1,17 @@
+D:\Project\TPSmart\TPSmart\TPSmart\bin\IR\Optoma.ir
+D:\Project\TPSmart\TPSmart\TPSmart\bin\TPSmart.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\TPSmart.pdb
+D:\Project\TPSmart\TPSmart\TPSmart\bin\Crestron.SimplSharpPro.DeviceSupport.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\Crestron.SimplSharpPro.Keypads.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\Crestron.SimplSharpPro.Lighting.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\Crestron.SimplSharpPro.UI.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\SimplSharpCustomAttributesInterface.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\SimplSharpHelperInterface.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\SimplSharpPro.exe
+D:\Project\TPSmart\TPSmart\TPSmart\bin\SimplSharpReflectionInterface.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\WebSocketServer.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\Crestron.SimplSharpPro.DM.dll
+D:\Project\TPSmart\TPSmart\TPSmart\bin\SimplSharpCryptographyInterface.dll
+D:\Project\TPSmart\TPSmart\TPSmart\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\TPSmart\TPSmart\TPSmart\obj\Debug\TPSmart.dll
+D:\Project\TPSmart\TPSmart\TPSmart\obj\Debug\TPSmart.pdb
