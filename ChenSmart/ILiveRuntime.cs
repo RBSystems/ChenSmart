@@ -5,6 +5,7 @@ using System.Text;
 using Crestron.SimplSharp;
 using ILiveLib;
 using Crestron.SimplSharpPro;
+using ILiveLib.Remoting;
 
 namespace ChenSmart
 {
@@ -14,7 +15,7 @@ namespace ChenSmart
 
         private ILiveSmartAPI logic = null;
         private UISmart ui = null;
-
+        ILiveRemoting remoting = null;
         public ILiveRuntime(CrestronControlSystem system)
         {
             this._controlSystem = system;
@@ -37,8 +38,9 @@ namespace ChenSmart
                 ui = new UISmart(this._controlSystem, logic);
                 ui.Start();
 
-               // new Thread(tcpListenMethod, null, Thread.eThreadStartOptions.Running);
 
+                 remoting = new ILiveRemoting(GlobalInfo.Instance.client);
+              
             }
             catch (Exception e)
             {
@@ -51,7 +53,7 @@ namespace ChenSmart
         internal void StartServices()
         {
             //启动调试服务
-            ILiveDebug.Instance.StartDebug("192.168.188.43", 8801, 8801);
+            ILiveDebug.Instance.StartDebug("192.168.1.35", 8801, 8801);
             ILiveDebug.Instance.DebugDataReceived = client_DebugDataReceived;
 
            // this.cp3.RegisterDevices();
@@ -59,9 +61,9 @@ namespace ChenSmart
     
 
         #region 系统调试
-        void client_DebugDataReceived(INetPortDevice device, NetPortSerialDataEventArgs args)
+        void client_DebugDataReceived(Object sender, string message, EventArgs e)
         {
-            switch (args.SerialData)
+            switch (message)
             {
                 case "t1":
                     //this.logic.movie.LivingProjectorPower(true);

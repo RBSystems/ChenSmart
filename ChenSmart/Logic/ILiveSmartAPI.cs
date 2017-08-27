@@ -42,7 +42,7 @@ namespace ChenSmart
             this.light = new ILiveLight(system);
             this.light.RegisterDevices();
 
-            this.Curtains = new ILiveCurtains(system);
+            this.Curtains = new ILiveCurtains();
             this.Curtains.RegisterDevices();
 
             this.Muisc = new ILiveMusic(system);

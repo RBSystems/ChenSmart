@@ -10,8 +10,12 @@ namespace ChenSmart
     public class GlobalInfo
     {
         public static readonly GlobalInfo Instance = new GlobalInfo();
+        public ClientInfo client = new ClientInfo();
         private GlobalInfo()
         {
+            this.client.Name = "ILiveTest";
+            this.client.DisplayName = "6Im+5Yqb5rWL6K+V";
+            this.client.SerialNumber = "2017082702";
         }
         private int _MusicVol1 = 40;
         private int _MusicVol2 = 40;

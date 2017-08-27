@@ -96,9 +96,6 @@ namespace ChenSmart
                // CrestronConsole.PrintLine(ex.Message);
                 // ILiveDebug.Instance.WriteLine(ex.Message);
             }
-
-       
-
         }
         private void Read(UDPServer myUDPServer, int numberOfBytesReceived)
         {

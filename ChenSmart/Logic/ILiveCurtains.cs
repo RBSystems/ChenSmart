@@ -5,31 +5,27 @@ using System.Text;
 using Crestron.SimplSharp;
 using Crestron.SimplSharpPro;
 using Crestron.SimplSharpPro.CrestronThread;
+using ILiveLib;
 
 namespace ChenSmart
 {
     public class ILiveCurtains
     {
-        private CrestronControlSystem controlSystem = null;
+        private ILiveWintom wintom = null;
 
         private ILiveGRODIGY8SW8 CongPu_7;
         private ILiveGRODIGY8SW8 CongPu_8;
-        public ILiveCurtains(CrestronControlSystem system)
+        public ILiveCurtains()
         {
-            this.controlSystem = system;
-
         }
         public void RegisterDevices()
         {
-         
+            //UDPClient client = new UDPClient();
+            //this.wintom = new ILiveWintom();
             #region 注册串口
-            if (this.controlSystem.SupportsComPort)
-            {
-
-                this.CongPu_7 = new ILiveGRODIGY8SW8(7,8006);
-                this.CongPu_8 = new ILiveGRODIGY8SW8(8, 8006);
-
-            }
+ 
+            this.CongPu_7 = new ILiveGRODIGY8SW8(7, 8006);
+            this.CongPu_8 = new ILiveGRODIGY8SW8(8, 8006);
             #endregion
 
         }
